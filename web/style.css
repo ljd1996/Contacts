@@ -1,0 +1,174 @@
+
+body{
+    background: url("images/bg.jpg");
+}
+
+#add_contact:hover{
+    color: #ff5555;
+}
+
+#search_contact:hover{
+    color: #ff5555;
+}
+
+/*增删查改按钮*/
+.work{
+    width:600px;
+    margin: 8px auto;
+    color: #6666aa;
+    padding-top: 60px;
+}
+/*表头*/
+.head{
+    width:600px;
+    border: 1px #ff5555 solid;
+    margin: 10px auto;
+    color: #996666;
+}
+
+/*通讯录表格*/
+#table_show{
+    width:600px;
+    border: 1px #65c7b2 solid;
+    margin: 2px auto;
+    color: #996666;
+}
+
+/*页面转换*/
+.page_work{
+    width:240px;
+    margin: 8px auto;
+    color: #54c3ab;
+    font-size: small;
+}
+
+#first_page:hover{
+    color: #ff5555;
+}
+
+#pre_page:hover{
+    color: #ff5555;
+}
+
+#next_page:hover{
+    color: #ff5555;
+}
+
+#last_page:hover{
+    color: #ff5555;
+}
+
+.work td {
+    text-align: center;
+    cursor: pointer;
+}
+
+.head td {
+    padding-left: 25px;
+}
+
+#table_show td {
+    text-align: center;
+}
+
+.page_work td {
+    text-align: center;
+    cursor:pointer;
+}
+
+.add-inf-form {
+    position: absolute;
+    left: 50%;
+    top: -300px;
+    width: 300px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 0;
+    background-color: rgba(111, 111, 111, 0.2);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    z-index: 0;
+}
+
+.add-inf-form input {
+    display: block;
+    width: 180px;
+    margin: 10px auto;
+    padding: 2px 10px;
+    font-size: 16px;
+    color: #666;
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+.add-inf-form input[type="text"]:focus {
+    border: 1px solid #98efdd;
+}
+
+.add-inf-form input[type="submit"] {
+    width: 100px;
+    color: #fff;
+    background-color: #baedd8;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+}
+
+.add-inf-form input[type="submit"]:hover {
+    background-color: #54c3ab;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=82);
+    opacity: 0.82;
+}
+
+.add-inf-form .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    background: url("images/close.png") no-repeat center center;
+    cursor: pointer;
+}
+
+.add-inf-form .close:hover {
+    background-image: url("images/close_hover.png");
+}
+
+#searchBy{
+    background-color: rgba(80,180,150,1);
+    margin: auto;
+}
+
+#table_show_result{
+    position: absolute;
+    left: 50%;
+    top: -300px;
+    width: 600px;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    opacity: 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px 0;
+    background-color: rgba(200, 111, 180, 0.9);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    z-index: 0;
+}
